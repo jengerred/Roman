@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+
+button {
+  margin-bottom: 1rem;
+  border-radius: .3rem;
+  border: 1px solid red;
+}
+.w-100 {
+  height: fit-content;
+  width: 17rem;
+  max-width: 100%;
+  background: linear-gradient(to top, black, red);
+}
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+   
+.Cards {
+  height: fit-content;
+  width: 18rem;
+  max-width: 30%;
+  border-bottom: 5px solid black;
+  background: linear-gradient(to top, black, red);
+  border-radius: 1rem;
+  margin-left: 1rem;
+  color: red;
+  margin-bottom: 3rem;
+}
+
+.Card-title {
+font-weight: 900;
+padding: 1rem;
+background: linear-gradient(to top, rgb(209, 23, 23), red);
+color: black;
+border-radius: 1rem;
+
+}
+.subtitle {
+  color: white;
+  text-transform: capitalize;
+
+  background: linear-gradient(to right, red,black,red,black,red,black,red);
+  background-size: 200% 200%;
+margin-bottom: 1rem;
+-webkit-background-clip: text;
+-webkit-text-stroke: 8px transparent;
+animation: rotateGradient 3s linear infinite;
+
+}
+@keyframes rotateGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
